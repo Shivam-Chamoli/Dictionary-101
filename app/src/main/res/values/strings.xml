@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dictionary 101</string>
+    <string name="str_et_hint">Enter the Word</string>
+    <string name="str_tv_text">"Learning is a treasure that will follow its owner everywhere."</string>
+    <string name="str_definitions">Definitions:</string>
+    <string name="str_sentences">Sentences</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeccondActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/playfair_display"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:text="Word" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_definitions"
+        android:padding="12dp"
+        android:layout_marginLeft="24dp"
+        android:textSize="25sp"
+        android:layout_marginStart="24dp" />
+
+    <ListView
+        android:id="@+id/def_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_def" />
+
+    <TextView
+        android:id="@+id/tv_sentences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_sentences"
+        android:padding="12dp"
+        android:layout_marginLeft="24dp"
+        android:textSize="25sp"
+        android:layout_marginStart="24dp" />
+
+    <ListView
+        android:id="@+id/sentence_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_sen" />
+
+
+</LinearLayout>
